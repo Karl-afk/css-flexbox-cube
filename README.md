@@ -15,17 +15,17 @@
 ### The challenge
 
 Align the pips with css flexbox
-
+ 
 ### Screenshot
 Before
-(./css-flexbox-cube-start.png)
+css-flexbox-cube-start.png
 After
-(./css-flexbox-cube.png)
+css-flexbox-cube.png
 
 ### Links
 
 - Solution URL: https://github.com/Karl-afk/css-flexbox-cube.git
-- Live Site URL: [https://karl-afk.github.io/css-flexbox-cube/]https://karl-afk.github.io/css-flexbox-cube/
+- Live Site URL: https://karl-afk.github.io/css-flexbox-cube/
 
 ### Built with
 
