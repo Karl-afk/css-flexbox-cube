@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    background-color: rgb(220, 220, 220);
+    font-family: 'Raleway', sans-serif;
+}
+
+.cube {
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 5px -5px 10px inset rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+}
+
+.circle {
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+/**/
+.container{
+    display: flex;
+    flex: 1 1 0px;
+    justify-content:space-between;
+}
+/*Cube 1*/
+.cube-1{
+    justify-content:center;
+    align-items:center;
+}
+/*Cube 2*/
+.cube-2{
+    justify-content: space-between;
+}
+.cube-2 .circle:first-child{
+    align-self: flex-end;
+}
+/*Cube 3*/
+.cube-3{
+    justify-content:space-between;
+}
+.cube-3 .circle:nth-of-type(1){
+    align-self: flex-end;
+}
+.cube-3 .circle:nth-of-type(2){
+    align-self:center;
+}
+/*Cube 4*/
+.cube-4 {
+    flex-direction: column;
+    justify-content:space-between
+}
+.cube-4-row{
+    display: flex;
+    justify-content:space-between;
+}
+/*Cube 5*/
+.cube-5{
+    flex-direction: column;
+    justify-content:space-between;
+}
+.cube-5-row{
+    display: flex;
+    justify-content:space-between;
+}
+.cube-5-row:nth-of-type(2){
+    justify-content:center;
+}
+/*Cube 6*/
+.cube-6{
+    flex-direction: column;
+    justify-content:space-between;
+}
+.cube-6-row{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
