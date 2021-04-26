@@ -18,9 +18,9 @@ Align the pips with css flexbox
  
 ### Screenshot
 Before
-css-flexbox-cube-start.png
+![](./css-flexbox-cube-start.png)
 After
-css-flexbox-cube.png
+![](./css-flexbox-cube.png)
 
 ### Links
 
